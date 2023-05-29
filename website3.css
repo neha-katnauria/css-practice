@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #56a9b6;
+}
+
+h2{
+    font-size: 28px;
+    color: #56a9b6;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+    color: #505489;
+    line-height:25px;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    width: 100%;
+    font-size:20px;
+    font-weight: 400;
+    padding: 23px;  
+    align-items: center;
+}
+.top-header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    width: 100%;
+    font-size:20px;
+    font-weight: 400;
+    padding: 23px;  
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    margin-left: auto;
+}
+
+.nav{
+    margin-left: auto;
+}
+ul,li{
+    display: flex;
+    gap:20px;
+    list-style: none;
+}
+li{
+    font-size: 18px;
+    color: #00c7d4;
+}
+a{
+    text-decoration: none;
+    color:var(--secondary);
+}
+hr{
+    color: #8063ff;
+   width:100%;
+    align-items: center;
+}
+.toggle{
+    display: none;
+}
+
+@media (max-width:767px) {
+    .toggle{
+        display: block;
+        color: black;
+    }
+    .top-header{
+        display: none;
+    }
+    .md{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+}
+/* banner */
+.section{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    width:100%;
+}
+.sc{
+    width: 50%;
+}
+.sc1{
+    width: 50%;
+}
+.sbtn{
+    background-color: #15aebb;
+    border: 2px solid #15aebb;
+    border-radius: 20px;
+    padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+.sbtn1{
+    background-color: #15aebb;
+    border-radius: 10px;
+    color: white;
+}
+ @media (max-width:767px) {
+    .section{
+        display: block;
+        justify-content: center;
+ }
+     .sc{
+
+        }
+    .sc1{
+       padding-left: 20px;
+    }
+    
+    }
+ .clent{
+    display: flex;
+    justify-content: center;
+    background-color: #f9f5ff;
+    padding-bottom: 40px;
+    padding-top: 74px;
+ }
+ .client{
+    display: flex;
+    margin-top: 25px;
+ }
+ .pp{
+    font-size: 18px;
+    text-align: justify;
+    color: #505489;
+    line-height:25px;
+    margin-left: 20px;
+ }
+ /* serve */
+ .serve{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding-top: 100px;
+ }
+ .serve1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+    
+ }
+ /* .boxx{
+    display: flex;
+    gap: 10px;
+ } */
+ .box{
+     width:32%;
+ }
+ .box1{
+    width:64%; 
+}
