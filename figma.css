@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Petit Formal Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+     color: #432916;
+}
+body{
+    background: #000;
+}
+.container{
+    background-image: url(/images/Group\ 5742.png);
+    height: 1902px;
+    width: 634px;
+    margin: auto;
+    padding-top: 38px;
+   
+}
+.sm-cont{
+    width:525px;
+    height: 314px;
+    background: #F7F0E8;
+    margin: auto;
+   
+}
+ul,li{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    line-height: 11px;
+    font-size: 9px;
+}
+a{
+    text-decoration: none;
+    color:#432916;
+    
+}
+/* ---------------------------------------new-arrival------------------- */
+.new-arrival{
+    width:525px;
+    height: 554px;
+    background-color: #FFFFFF;
+    margin: auto;
+    
+}
+/* -------------------------ring section-------------------- */
+.ring-section{
+    width: 525px;
+    height: 302px;
+    background-color: #E9EBED;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+   
+}
+.ring{
+    display: flex;
+    width: 252px;
+    
+}
+.ring1{
+    width: 252px;
+    text-align: center;
+} 
+
+.p-ring{
+    color:#595959;
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+}
+.btn{
+position: absolute;
+width: 108px;
+height: 25px;
+top: 1104px;
+border: 1px solid #DCC29C;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+display: flex;
+align-items: center;
+/* text-align: center; */
+color: #432916;
+justify-content: center;
+margin-left: 74px;
+
+
+}
+/* --------------footer---------------------------------------*/
+.footer{
+    background-color: #432916;
+    width:525px;
+    margin: auto;
+    height: 175px;
+}
