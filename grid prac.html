@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>grid</title>
+    <style>
+        section{
+            display: grid;
+            row-gap: 10px;
+            column-gap: 10px;
+            background-color: lightcoral;
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns: auto auto auto auto auto auto;
+
+        }
+        .box{
+            background-color: aqua;
+
+        }
+        .box2{
+            grid-column: 2/4;
+            grid-row: 3/1;
+        }
+        .box5{
+            grid-column: 1/2;
+        }
+        .box7{
+            grid-row: 3/4;
+        }
+        .box11{
+            grid-row: 4/5;
+            grid-column: 1/4;
+        }
+        .box8{
+            grid-column: 2/3;
+        }
+        .box3{
+            grid-column: 4/5;
+            grid-row:1/5 ;
+        }
+        .box12{
+            grid-column: 5/6;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="box box1">box 1</div>
+        <div class="box box2">box 2</div>
+        <div class="box box3">box 3</div>
+        <div class="box box4">box 4</div>
+        <div class="box box5">box 5</div>
+        <div class="box box6">box 6</div>
+        <div class="box box7">box 7</div>
+        <div class="box box8">box 8</div>
+        <div class="box box9">box 9</div>
+        <div class="box box10">box 10</div>
+        <div class="box box11">box 11</div>
+        <div class="box box12">box 12</div>
+    </section>
+</body>
+</html>
